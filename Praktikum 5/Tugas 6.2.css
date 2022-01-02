@@ -1,0 +1,51 @@
+body{
+    display: flex;
+}
+ 
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Nav{
+    height: 609px;
+    width: 220px;
+    background-color: rgb(243, 157, 171);
+    order: 0;
+ 
+}
+
+.Header{
+    height: 100px;
+    width: 1100px;
+    background-color: rgb(218, 207, 114);
+    order: 0;
+}
+
+#main{
+    display: flex;
+    flex-direction: row;
+}
+
+.Article{
+    height: 409px;
+    width: 810px;
+    background-color:white;
+    order: 3;
+
+}
+
+.Aside{
+    height: 409px;
+    width: 290px;
+    background-color: rgb(92, 190, 190);
+    order: 3;
+
+}
+
+.Footer{
+    height: 100px;
+    width: 1100px;
+    background-color: rgb(218, 207, 114);
+    order: 4;    
+}

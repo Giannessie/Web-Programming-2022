@@ -1,0 +1,151 @@
+.jumbotron {
+    padding-top: 3rem;
+    background-image: url(img/saya.jpg);
+    background-size: cover;
+    height: 655px;
+    text-align: center;
+}
+
+.jumbotron .display-4 {
+    color: rgb(196, 69, 20);
+    margin-top: 165px;
+    text-shadow: 1px 1px 1px white;
+}
+
+.sayaa {
+    color: whitesmoke;
+    text-shadow: 1px 1px 1px black;
+}
+
+#feature {
+    background-color: #add8e6;
+}
+
+.icon {
+    padding-top: 3rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+
+.tombol {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: #add8e6;
+    margin: 10px;
+    border-radius: 30%;
+    box-sizing: 0 5px 15 px -5px #00000070;
+    overflow: hidden;
+    position: relative;
+    color: primary;
+}
+
+.tombol i{
+    transition: 0.2s linear;
+    font-size: 26px;
+    line-height: 90px;
+}
+
+.tombol:hover i{
+    transform: scale(1.3);
+    color: primary;
+}
+
+.tombol::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: -110%;
+    top: 90%;
+    transform: rotate(45deg);
+    background: #add8e6;
+}
+
+.tombol:hover:before{
+    left: -10%;
+    top: -10%;
+    animation: aaa 0.7s l;
+}
+
+@keyframes aaa{
+    0%{
+        left: -10%;
+        top: 90%;
+    }
+    50%{
+        left: -10%;
+        top: 30%;
+    }
+    100%{
+        left: -10%;
+        top: 10%;
+    }
+}
+
+.apa{
+    padding-top: 1rem;
+    background-color: #add8e6;
+}
+
+.saya{
+    padding-top: 1rem;
+}
+
+.aku {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: white;
+    margin: 10px;
+    border-radius: 30%;
+    box-sizing: 0 5px 15 px -5px #00000070;
+    overflow: hidden;
+    position: relative;
+    color: primary;
+}
+
+.aku i{
+    transition: 0.2s linear;
+    font-size: 26px;
+    line-height: 90px;
+}
+
+.aku:hover i{
+    transform: scale(1.3);
+    color: primary;
+}
+
+.aku::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: -110%;
+    top: 90%;
+    transform: rotate(45deg);
+    background: white;
+}
+
+.aku:hover:before{
+    left: -10%;
+    top: -10%;
+    animation: aaa 0.7s l;
+}
+
+@keyframes aaa{
+    0%{
+        left: -10%;
+        top: 90%;
+    }
+    50%{
+        left: -10%;
+        top: 30%;
+    }
+    100%{
+        left: -10%;
+        top: 10%;
+    }
+}
